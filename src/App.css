@@ -1,0 +1,48 @@
+/* background color for page */
+body {
+  background-color: rgb(145, 134, 214) !important;
+}
+
+/* css for title text */
+.title_text {
+  font-size: 3em;
+  color:rgb(17, 4, 102);
+}
+
+/* center app containers */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* limit width for stack container */
+.stack-container {
+  width: 45%;
+}
+
+/* making checkbox bigger */
+.custom-checkbox {
+  transform: scale(3);
+  margin-left: 20px;
+}
+
+/* change background color for completed tasks */
+.completed-color {
+  background-color: rgb(171, 223, 199)
+}
+
+/* change background color for incompleted tasks */
+.incompleted-color {
+  background-color:rgb(238, 238, 164) 
+}
+
+/* strikethrough for completed tasks */
+.strikethrough {
+  text-decoration: line-through;
+}
+
+/* forcefully wrapping text for single, very long words */
+.task-name {
+  word-wrap: break-word;
+}
