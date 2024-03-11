@@ -57,7 +57,7 @@ function InputModal({ onSubmit, onHide, onEdit, editing, task }: Props) {
       <Modal.Body>
         {/* Input area */}
         <Form>
-          <Form.Group className='mb-3' controlId='formBasicEmail'>
+          <Form.Group className='mb-3' controlId='formTask'>
             <Form.Label>Task name</Form.Label>
             <Form.Control
               placeholder='Enter name'
