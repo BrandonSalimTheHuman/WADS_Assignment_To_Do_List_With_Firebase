@@ -10,6 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path='/*' element={<Navigate to='/login' />} />
         <Route path='/login' Component={LoginPage} />
         <Route path='/signup' Component={SignUpPage} />
         <Route path='/reset' Component={ResetPage} />
